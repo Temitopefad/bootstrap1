@@ -1,0 +1,106 @@
+body {
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+    font-size: 1.75rem;
+    color: coral;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0a500;
+}
+
+/* Hero Section */
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Menu Section */
+.menu h2 {
+    font-size: 2.5rem;
+    color: coral;
+}
+
+.menu-item img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.menu-item h3 {
+    margin-top: 15px;
+    color: #333;
+    font-size: 1.75rem;
+}
+
+.menu-item span {
+    color: green;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* About Us Section */
+.about-us h2 {
+    color: #f8b400;
+}
+
+.about-us p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Contact Section */
+.contact h2 {
+    color: #f8b400;
+}
+
+.contact form .form-control {
+    border-radius: 10px;
+}
+
+.contact button {
+    background-color: #f8b400;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contact button:hover {
+    background-color: coral;
+}
+
+/* Footer Styles */
+footer p {
+    margin-bottom: 0;
+}
+
+footer .social-icons a img {
+    width: 30px;
+    margin: 0 10px;
+}
