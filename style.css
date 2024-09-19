@@ -14,7 +14,7 @@ body {
     transition: color 0.3s ease;
 }
 
-.navbar-nav .nav-link:hover {
+ .nav-link:hover {
     color: #f0a500;
 }
 
@@ -103,4 +103,20 @@ footer p {
 footer .social-icons a img {
     width: 30px;
     margin: 0 10px;
+}
+.card {
+    /* Make all cards equal height */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    /* Stretch the card-body to fill the available space */
+    flex-grow: 1;
+}
+
+.card img {
+    /* Set a fixed height for all images without distorting */
+    object-fit: cover;
+    height: 200px;
 }
